@@ -19,7 +19,7 @@ time, mark, audio, video {
   vertical-align: baseline; }
 
   h1 {
-    font-size: 8em;
+    font-size: 6em;
     color: #ff69b4;
   }
   
@@ -60,4 +60,4 @@ a {
     color: #009ce0; }
 
 #main {
-  padding: 50px; }
+  padding: 25px; }
