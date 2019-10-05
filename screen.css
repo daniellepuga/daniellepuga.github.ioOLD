@@ -16,13 +16,32 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: center; }
 
   h1 {
     font-size: 6em;
     color: #ff69b4;
   }
+
+.header { 
+  padding: 50px;
+  text-align: center;
+  font-size: 15px;
+  width: 500px;
+  position: relative;
+  margin: auto;
+  border: 3px solid #73AD21;
+}
   
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: right;
+}
+
 body {
   line-height: 1; }
 
