@@ -11,22 +11,42 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-
-  
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: center;
+}
 
   h1 {
     font-size: 6em;
     color: #ff69b4;
   }
+
+.header { 
+  padding: 25px;
+  text-align: center;
+  font-size: 15px;
+  width: auto;
+  position: relative;
+  margin: auto;
+  border: 5px solid #73AD21;
+}
   
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: right;
+}
+
 body {
-  line-height: 1; }
+  line-height: 1;
+  padding-top: 3.5rem;
+}
 
 ol, ul {
   list-style: none; }
