@@ -12,7 +12,10 @@ class DynamicArray:
         self.next_index = 0 #initial length of 0
 
     def is_empty(self):
-        return True
+        if self.next_index > 0:
+            return False
+        else:
+            return True
 
     def __len__(self):
         return self.next_index
@@ -26,6 +29,9 @@ class DynamicArray:
 
     def add_next_index(self):
         self.next_index += 1
+
+    def clear(self):
+        self.next_index = 0
 
     # def append(self, index):
     #     return 8
