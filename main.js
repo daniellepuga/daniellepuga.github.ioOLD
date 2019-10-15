@@ -3,3 +3,10 @@ document.addEventListener("DOMContentLoaded", function() {
       this.style.color = 'orange'
     }
   })
+
+  $( document ).ready(function() {
+    $( "#bio" ).click(function() {
+      $( "#bio" ).fadeOut( "slow", function() {
+      });
+    });
+  });

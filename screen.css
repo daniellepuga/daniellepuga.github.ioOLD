@@ -16,12 +16,8 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-<<<<<<< HEAD
-  vertical-align: center; }
-=======
   vertical-align: center;
 }
->>>>>>> master
 
   h1 {
     font-size: 6em;
@@ -29,15 +25,6 @@ time, mark, audio, video {
   }
 
 .header { 
-<<<<<<< HEAD
-  padding: 50px;
-  text-align: center;
-  font-size: 15px;
-  width: 500px;
-  position: relative;
-  margin: auto;
-  border: 3px solid #73AD21;
-=======
   padding: 10px;
   text-align: justify;
   font-size: 15px;
@@ -45,7 +32,6 @@ time, mark, audio, video {
   position: relative;
   margin: auto;
   border: 5px solid #73AD21;
->>>>>>> master
 }
   
 .footer {
